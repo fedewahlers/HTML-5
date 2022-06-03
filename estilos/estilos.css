@@ -1,0 +1,750 @@
+/* FUENTES IMPORTADAS DE GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+/* FINALIZAN LAS IMPORTACIONES DE TIPOGRAFIAS */
+
+/* RESETEO LOS MARGENES Y RELLENOS */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* TERMINA RESETEO */
+
+/* PROPIEDAD DE REINICIO EN HTML */
+html{
+    box-sizing: border-box;
+}
+/* FINALIZA LA PROPIEDAD DEL HTML */
+
+
+
+/* HEADER */
+header{
+    position: sticky;
+    top: 0px;
+}
+
+
+
+
+
+header nav ul  {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Koulen', cursive;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+   
+}
+   
+ 
+ 
+
+ 
+  
+
+a{
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(165, 186, 205);
+
+  
+
+    
+}
+
+/* FINALIZA EL HEADER */
+
+
+
+
+
+/* COMIENZA EL H1 */
+
+h1 {
+    color: rgb(76, 127, 161);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+ 
+ 
+
+    
+
+}
+/* CALASES DEL H1 */
+.COD{background-color: black;}
+/* FINALIZA EL H1 */
+
+
+
+/* H2 */
+
+.historia {
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: black;
+    
+    color: rgb(255, 255, 255);
+}
+.segundo {
+    
+    color: rgb(150, 189, 212);
+    margin-top: 1px;
+    margin-bottom: 5px;
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#platense {
+    background-color: black;
+    color: aliceblue;
+    margin: 40px 10px;
+    padding: 10px 70px 10px 525px;
+    font-size: 30px;
+    font-style: inherit;
+    font-weight: bolder;
+}
+/* FINALIZA EL H2 */
+
+
+
+
+/* H3 Y SUS PROPIEDADES */
+
+h3 {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+/* CIERRA EL H3 */
+
+
+
+/* BODY Y SUS CLASES */
+
+body {
+    background-image: url("../imagenes/fnodo22.jfif");
+
+}
+.games {
+    background-color: aliceblue;}
+  
+
+/* FINALIZA EL BODY */
+
+
+
+
+
+/* MAIN */
+
+
+main{background-image: url(../imagenes/fnodo22.jfif);
+
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+
+}
+
+
+
+
+
+/* CIERRA EL MAIN */
+
+
+
+/* PARRAFOS POR SECCIONES */
+p {
+    background-color: black;
+    color: rgb(250, 250, 250);
+    padding: 40px 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: larger;
+}
+.esports {
+           background-color: rgb(0, 0, 0);
+           color: rgb(248, 248, 248);
+           margin-right:0px ;
+           margin-left: 0px; 
+           margin-bottom: 20px;
+           padding-top: 70px;
+           padding-bottom: 50px;
+          
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           gap: 20px;
+                 
+        }       
+
+.comunidad{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+          
+    
+}
+
+.juegos{
+    background-color: rgb(118, 185, 207);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+          
+
+}
+
+.historiatrr{
+    background-color: rgb(118, 185, 207);
+    color: rgb(249, 249, 249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+          
+}
+/* FINALIZA PARRAFOS DE HOME */
+
+/*parrafos de coomunidad  */
+
+.comunity{
+    margin-top: 20px;
+    margin-bottom: 50px;
+   background-color: rgb(5, 94, 15);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+
+}
+/* cierro comunidad */
+
+/* historia y parrafos */
+
+.history{
+
+    margin-bottom: 70px;
+    background-image: url(../imagenes/activion.png);
+    color: rgb(4, 235, 192);
+    font-size: x-large;
+    font-weight: 9000;
+    font-family: fantasy;
+}
+
+
+/* IMAGENES Y SUS CLASES */
+
+img {
+ 
+    margin-bottom: 10px;
+    width: 20%;
+      
+}
+
+
+
+
+
+
+.facebook {
+height: 1cm;
+width: 1cm;
+}
+.twitter{
+    height: 1cm;
+    width: 1cm;
+}
+
+.instagram{
+    height: 1cm;
+    width: 1cm;   
+}
+/* FINALIZAN LAS IMAGENS Y SUS CLASES */
+
+
+
+
+
+
+/* FORMULARIO */
+
+
+form {
+    color: antiquewhite;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* CIERRO EL FORMULARIO */
+
+/* INCIAL EL FOOTER Y SUS CLASES */
+
+footer {
+    background: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;; 
+    display: flex;
+
+    
+}
+
+.iconos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    height: 80px;
+    color: rgb(240, 240, 240);
+    
+  
+}
+
+.iconos span{
+color: rgb(152, 149, 149);
+margin-left: 0px;
+padding-top: 10px;
+padding-bottom: 5px;
+
+}
+/* CIERRO EL FOOTER Y SUS CALSES */
+
+/* BOTONES */
+
+.botones{ 
+    background-color: rgb(247, 247, 247);
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: medium;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    button: hover black;
+    cursor: pointer;
+ 
+}
+
+
+
+
+
+/* grids */
+
+
+.grids{
+    border: 10px rgb(233, 9, 9) solid;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:  auto auto;
+    gap: 2px;
+    margin: auto;
+    
+   
+    
+}
+.soon  img{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+
+
+/* cierrro grids */
+
+
+.alfa{
+    padding-left: auto;
+    width: 100%;
+
+}
+.portes{
+    padding-left: 350px;
+}
+
+
+/*  LAYOUT CON GRIDS*/
+
+
+/* MEDIA 600, 768  INDEX*/
+
+@media( max-width:600px){
+
+
+    header nav ul {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: 'Koulen', cursive;
+        position: absolute;
+        gap: 10px;
+        padding-left: 5px;
+        padding-right: 5px;  
+       
+    }
+
+    footer{
+     
+        margin-top: 0%;
+        margin-bottom: 0%;
+
+    }
+
+    .iconos{
+        background: black;
+        color: aliceblue;
+        font-weight: bold;
+        font-family: 'Teko', sans-serif;; 
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .iconos span{
+        margin-top: top 0px;
+        margin-bottom: 0px; 
+    }
+
+    h1 {
+        color: rgb(97, 110, 120);
+        font-weight: bold;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 5px solid white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;}
+
+}
+
+
+
+/* MEDIA 768 */
+
+ @media(max-width:768px)
+ 
+ {
+
+    header {
+        position: relative;
+    }
+
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-family: 'Koulen', cursive;
+        border: 2px solid red;
+
+    }
+
+    footer {
+        background: black;
+
+        font-weight: bold;
+        font-family: 'Teko', sans-serif;
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 2px solid red;
+       
+    }
+
+    .iconos {
+
+        display: flex ;
+        flex-direction: row;
+        justify-content: space-bettwen;
+        height: 80px;
+
+    }
+
+    .iconos span {
+        color: rgb(144, 205, 183);
+
+    }
+
+    h1 {
+        color: rgb(248, 252, 255);
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        background-color: transparent;
+
+    }
+    .COD {
+        background-color: black;
+        border: 2px solid red;
+    }
+
+    .comunidad {
+
+        background-color: rgb(96, 6, 6);
+        color: rgb(247, 247, 247);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .historiatrr {
+
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row-reverse;
+
+    }
+
+    .juegos {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: rgb(0, 0, 0);
+
+    }
+
+    .esports {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(96, 6, 6);
+
+    }
+
+    main {
+        border: 2px solid red;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE EN JUEGOS */
+
+@media (max-width:600px){
+
+    .games {
+        background-color: aliceblue;
+
+        
+    }
+    .grids{
+        border: 0px rgb(233, 9, 9) solid;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: auto autp;
+        grid-template-rows:  290px 290px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0%;
+        gap: 1px;
+
+        
+       
+        
+       
+        
+    }
+    .soon  img{
+        width: 100%;
+        height: 100%;
+    
+        
+       
+    }
+    
+
+    .alfa{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: auto;
+    }
+
+    h1{
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
+    margin-bottom: 0%;
+
+
+    }
+    
+    header{
+
+    }
+
+    footer{
+
+
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+/* JUEGOS RESPONSIVE 728 */
+
+@media (max-width:728px){
+
+    .games {
+        background-color: aliceblue;
+
+        
+    }
+    .grids{
+        border: 0px rgb(233, 9, 9) solid;
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: auto autp;
+        grid-template-rows:  auto auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0%;
+        gap: 1px;
+
+        
+       
+        
+       
+        
+    }
+    .soon  img{
+        width: 100%;
+        height: 100%;
+    
+        
+       
+    }
+    
+
+    .alfa{
+        padding-left: 0px;
+        width: 100%;
+    
+    }
+    
+
+    h1{
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
+    margin-bottom: 0%;
+
+
+    }
+    
+    header{
+
+    }
+
+    footer{
+
+        
+    }
+
+    
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
