@@ -177,7 +177,7 @@ justify-content: center;
 
 /* PARRAFOS POR SECCIONES */
 p {
-    background-color: black;
+  
     color: rgb(250, 250, 250);
     padding: 40px 50px;
     margin-right: 0px;
@@ -352,6 +352,12 @@ padding-bottom: 5px;
     cursor: pointer;
  
 }
+.botones:hover{   
+    transform : scale(2);
+    transition-property: all;
+    transition-duration: 2s;
+  
+}
 
 
 
@@ -396,60 +402,127 @@ padding-bottom: 5px;
 
 /*  LAYOUT CON GRIDS*/
 
+/* ANIMACIONES */
+
+.box1{
+    
+    border-radius: 2px white;
+    height: auto;
+    width: auto;
+    margin: 10px;
+    background-color: rgb(0, 255, 255);
+
+}
+.box2{
+    height: auto;
+    width: auto;
+    margin: 10px;
+    background-color: blue;
+}
+
+.box1:hover{
+    transform: scale(2);
+
+
+
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MEDIA 600, 768  INDEX*/
 
-@media( max-width:600px){
+@media(max-width:600px){ header nav ul {
+
+    display: flex;
+    flex-direction:row;
+    background-color: rgb(0, 0, 0);
+    font-size: 20 px;
+    font-family: 'Koulen', cursive;
+    position: absolute;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;  }
+   
 
 
-    header nav ul {
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(0, 0, 0);
-        font-size: 20px;
-        font-family: 'Koulen', cursive;
-        position: absolute;
-        gap: 10px;
-        padding-left: 5px;
-        padding-right: 5px;  
-       
+   footer{
+ 
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+   }
+
+  .iconos{
+    background: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+     }
+  .iconos span{
+    margin-top: top 0px;
+    margin-bottom: 0px; 
     }
 
-    footer{
-     
-        margin-top: 0%;
-        margin-bottom: 0%;
+  h1 {
+    color: rgb(97, 110, 120);
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;}}
+ 
 
-    }
+    
+   
 
-    .iconos{
-        background: black;
-        color: aliceblue;
-        font-weight: bold;
-        font-family: 'Teko', sans-serif;; 
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    .iconos span{
-        margin-top: top 0px;
-        margin-bottom: 0px; 
-    }
+  
 
-    h1 {
-        color: rgb(97, 110, 120);
-        font-weight: bold;
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        border: 5px solid white;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-top: 10px;
-        margin-bottom: 10px;}
-
-}
+    
 
 
 
