@@ -27,6 +27,8 @@ html{
 header{
     position: sticky;
     top: 0px;
+    background-color: black;
+    
 }
 
 
@@ -36,13 +38,17 @@ header{
 header nav ul  {
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: 'Koulen', cursive;
     align-items: center;
     justify-content: space-around;
     position: sticky;
    
+   
+}
+li{
+    list-style-type: none;
 }
    
  
@@ -55,6 +61,8 @@ a{
     font-size: larger;
     text-decoration: none;
     color: rgb(165, 186, 205);
+    list-style-type: none;
+
 
   
 
@@ -141,6 +149,7 @@ h3 {
 
 body {
     background-image: url("../imagenes/fnodo22.jfif");
+ 
 
 }
 .games {
@@ -215,7 +224,7 @@ p {
 }
 
 .juegos{
-    background-color: rgb(118, 185, 207);
+    background-color: rgb(5, 48, 62);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,7 +234,7 @@ p {
 }
 
 .historiatrr{
-    background-color: rgb(118, 185, 207);
+    background-color: rgb(5, 48, 62);
     color: rgb(249, 249, 249);
     display: flex;
     flex-direction: column;
@@ -312,28 +321,30 @@ footer {
     color: aliceblue;
     font-weight: bold;
     font-family: 'Teko', sans-serif;; 
-    display: flex;
+    list-style-type: none;
+    margin-bottom: 0%;
+
 
     
 }
 
 .iconos{
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    align-items:center;
-    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     color: rgb(240, 240, 240);
-    
+    list-style-type: none;
+    margin-bottom: 0;
   
 }
 
-.iconos span{
-color: rgb(152, 149, 149);
-margin-left: 0px;
-padding-top: 10px;
-padding-bottom: 5px;
+.iconos 
+span{
+color: rgb(150, 146, 146);
+padding-top: 90px;
 
+text-decoration: none;
 }
 /* CIERRO EL FOOTER Y SUS CALSES */
 
@@ -396,7 +407,10 @@ padding-bottom: 5px;
 
 }
 .portes{
-    padding-left: 350px;
+    width: 100%;
+    margin-bottom: 55px;
+    margin-top: 55px;
+    border: 2px solid white;
 }
 
 
@@ -410,23 +424,19 @@ padding-bottom: 5px;
     height: auto;
     width: auto;
     margin: 10px;
-    background-color: rgb(0, 255, 255);
+    margin-left:20px ;
+    margin-right: 20px;
+    background:linear-gradient(rgb(0, 0, 0), rgb(95, 95, 92));
+    padding-bottom: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.box2{
-    height: auto;
-    width: auto;
-    margin: 10px;
-    background-color: blue;
-}
+
 
 .box1:hover{
     transform: scale(2);
-
-
-
     transition-property: all;
-    transition-duration: 2s;
+    transition-duration: 1s;
 }
 
 

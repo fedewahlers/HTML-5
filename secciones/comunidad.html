@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" href="../estilos/estilos.css">
         <title>comunidad</title>
     </head>
@@ -33,37 +34,63 @@
     </header>
     <main>
         <h1>COMUNIDAD</h1>
-        <p class="comunity">
-            para formar parte de nuestro chat de whatsapp, ingresa los datos a continuacion y nuestro equipo se estara comunicando en los proximos 7 dias
-        </p>
+
         <section>
-            <div>
-                <h2>ORIGEN HABLAHISPANA</h2>
-            </div>
             <div class="box1">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio ab veritatis sit velit ut dolorum delectus accusamus commodi consequuntur, suscipit fuga doloribus quae eius quis est omnis cum neque officia.</p>
+                <p>Bienvenidos, a la comunidad mas grande de COD, de origen hablahispana. Aqui podras obtener increibles beneficios en cada juego y podras acceder a un excelente chat de nuestra comunidad, unicamente para hablar sobre el juego.</p>
             </div>
-            <div class="box2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quaerat officia quasi perspiciatis error assumenda eum non, provident reprehenderit ipsam unde ratione totam atque illum? Maxime illo dolores deserunt? Sequi.</p>
-            </div>
+
         </section>
 
-
-        <form>
-            <label for="nombre_apellido">ingrese Nombre y apellido</label>
-            <input type="text" name="nombre_apellido"/><br>
-            <label for="telefono de contacto">ingrese telefono de contacto</label>
-            <input type="number" name="telefono de contacto"/>
-
-            <div>Hombre</div>
-            <input type="radio" name="sexo" value="Hombre">
-            <div>Mujer</div>
-            <input type="radio" name="sexo" value="Mujer"><br>
+       <section class="container formboot">
+   
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustom01"  required>
+           
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="validationCustom02"  required>
+         
+            </div>
+           
+                <span class="input-group-text" id="inputGroupPrepend">@email adress</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+         
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Ciudad de residencia</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+          
+            </div>
+            <div class="col-md-3">
+              <label for="validationCustom04" class="form-label">provincia</label>
+              <input type="text" class="form-control" id="validationCustom03" required>
+             
             
-            <input type="submit" value="enviar"/>
-            <input type="reset" value="limpiar"/>
-            <input type="button" value="sin accion"/><br>
-        </form>
+              </select>
+          
+            </div>
+       
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  acepto terminos y condiciones
+                </label>
+            
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </form>
+
+       </section>
+       
     </main>
     <footer class= "iconos">
 
@@ -94,5 +121,8 @@
         </div>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
