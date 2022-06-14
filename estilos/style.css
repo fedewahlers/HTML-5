@@ -1,0 +1,659 @@
+/* FUENTES IMPORTADAS DE GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+/* FINALIZAN LAS IMPORTACIONES DE TIPOGRAFIAS */
+@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Koulen&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: black;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: black;
+  font-size: 20px;
+  font-family: 'Koulen', cursive;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  font-size: larger;
+  text-decoration: none;
+  color: #a5bacd;
+  list-style-type: none;
+}
+
+/* HEADER */
+/* FINALIZA EL HEADER */
+/* COMIENZA EL H1 */
+h1 {
+  color: #4c7fa1;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* CALASES DEL H1 */
+.COD {
+  background-color: black;
+}
+
+/* FINALIZA EL H1 */
+/* H2 */
+.historia {
+  font-weight: bolder;
+  font-size: xx-large;
+  background-color: black;
+  color: white;
+}
+
+.segundo {
+  color: #96bdd4;
+  margin-top: 1px;
+  margin-bottom: 5px;
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#platense {
+  background-color: black;
+  color: aliceblue;
+  margin: 40px 10px;
+  padding: 10px 70px 10px 525px;
+  font-size: 30px;
+  font-style: inherit;
+  font-weight: bolder;
+}
+
+/* FINALIZA EL H2 */
+/* H3 Y SUS PROPIEDADES */
+h3 {
+  background-color: black;
+  color: white;
+}
+
+/* CIERRA EL H3 */
+/* BODY Y SUS CLASES */
+body {
+  background-image: url("../imagenes/fnodo22.jfif");
+}
+
+.games {
+  background-color: aliceblue;
+}
+
+/* FINALIZA EL BODY */
+/* MAIN */
+main {
+  background-image: url(../imagenes/fnodo22.jfif);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* CIERRA EL MAIN */
+/* PARRAFOS POR SECCIONES */
+p {
+  color: #fafafa;
+  padding: 40px 50px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: 'Odibee Sans', cursive;
+  font-size: larger;
+}
+
+.esports {
+  background-color: black;
+  color: #f8f8f8;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.comunidad {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.juegos {
+  background-color: #05303e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+.historiatrr {
+  background-color: #05303e;
+  color: #f9f9f9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+
+/* FINALIZA PARRAFOS DE HOME */
+/*parrafos de coomunidad  */
+.comunity {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background-color: #055e0f;
+  color: black;
+  font-size: larger;
+}
+
+/* cierro comunidad */
+/* historia y parrafos */
+.history {
+  margin-bottom: 70px;
+  background-image: url(../imagenes/activion.png);
+  color: #04ebc0;
+  font-size: x-large;
+  font-weight: 9000;
+  font-family: fantasy;
+}
+
+/* IMAGENES Y SUS CLASES */
+img {
+  margin-bottom: 10px;
+  width: 20%;
+}
+
+.facebook {
+  height: 1cm;
+  width: 1cm;
+}
+
+.twitter {
+  height: 1cm;
+  width: 1cm;
+}
+
+.instagram {
+  height: 1cm;
+  width: 1cm;
+}
+
+/* FINALIZAN LAS IMAGENS Y SUS CLASES */
+/* FORMULARIO */
+form {
+  color: antiquewhite;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* CIERRO EL FORMULARIO */
+/* INCIAL EL FOOTER Y SUS CLASES */
+footer {
+  background: black;
+  color: aliceblue;
+  font-weight: bold;
+  font-family: 'Teko', sans-serif;
+  list-style-type: none;
+  margin-bottom: 0%;
+}
+
+.iconos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #f0f0f0;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.iconos
+span {
+  color: #969292;
+  padding-top: 90px;
+  text-decoration: none;
+}
+
+/* CIERRO EL FOOTER Y SUS CALSES */
+/* BOTONES */
+.botones {
+  background-color: #f7f7f7;
+  color: black;
+  font-family: 'Anton', sans-serif;
+  font-size: medium;
+  border: 1px solid white;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  button: hover black;
+  cursor: pointer;
+}
+
+.botones:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+/* grids */
+.grids {
+  border: 10px #e90909 solid;
+  border-radius: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: auto auto;
+      grid-template-rows: auto auto;
+  gap: 2px;
+  margin: auto;
+}
+
+.soon img {
+  width: 100%;
+  height: 100%;
+}
+
+/* cierrro grids */
+.alfa {
+  padding-left: auto;
+  width: 100%;
+}
+
+.portes {
+  width: 100%;
+  margin-bottom: 55px;
+  margin-top: 55px;
+  border: 2px solid white;
+}
+
+/*  LAYOUT CON GRIDS*/
+/* ANIMACIONES */
+.box1 {
+  border-radius: 2px white;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#5f5f5c));
+  background: linear-gradient(black, #5f5f5c);
+  padding-bottom: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box1:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+/* MEDIA 600, 768  INDEX*/
+@media (max-width: 600px) {
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: black;
+    font-size: 20 px;
+    font-family: 'Koulen', cursive;
+    position: absolute;
+    gap: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  footer {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .iconos {
+    background: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .iconos span {
+    margin-top: top 0px;
+    margin-bottom: 0px;
+  }
+  h1 {
+    color: #616e78;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* MEDIA 768 */
+@media (max-width: 768px) {
+  header {
+    position: relative;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: black;
+    font-size: 15px;
+    font-family: 'Koulen', cursive;
+    border: 2px solid red;
+  }
+  footer {
+    background: black;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 2px solid red;
+  }
+  .iconos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-bettwen;
+        -ms-flex-pack: space-bettwen;
+            justify-content: space-bettwen;
+    height: 80px;
+  }
+  .iconos span {
+    color: #90cdb7;
+  }
+  h1 {
+    color: #f8fcff;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+  }
+  .COD {
+    background-color: black;
+    border: 2px solid red;
+  }
+  .comunidad {
+    background-color: #600606;
+    color: #f7f7f7;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 20px;
+  }
+  .historiatrr {
+    background-color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .juegos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    background-color: black;
+  }
+  .esports {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #600606;
+  }
+  main {
+    border: 2px solid red;
+  }
+}
+
+/* RESPONSIVE EN JUEGOS */
+@media (max-width: 600px) {
+  .games {
+    background-color: aliceblue;
+  }
+  .grids {
+    border: 0px #e90909 solid;
+    border-radius: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto autp;
+        grid-template-columns: auto autp;
+    -ms-grid-rows: 290px 290px;
+        grid-template-rows: 290px 290px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0%;
+    gap: 1px;
+  }
+  .soon img {
+    width: 100%;
+    height: 100%;
+  }
+  .alfa {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: auto;
+  }
+  h1 {
+    background-color: black;
+    color: #fcfcfc;
+    margin-bottom: 0%;
+  }
+}
+
+/* JUEGOS RESPONSIVE 728 */
+@media (max-width: 728px) {
+  .games {
+    background-color: aliceblue;
+  }
+  .grids {
+    border: 0px #e90909 solid;
+    border-radius: 10px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto autp;
+        grid-template-columns: auto autp;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0%;
+    gap: 1px;
+  }
+  .soon img {
+    width: 100%;
+    height: 100%;
+  }
+  .alfa {
+    padding-left: 0px;
+    width: 100%;
+  }
+  h1 {
+    background-color: black;
+    color: #fcfcfc;
+    margin-bottom: 0%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

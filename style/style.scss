@@ -8,48 +8,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 /* FINALIZAN LAS IMPORTACIONES DE TIPOGRAFIAS */
 
-/* RESETEO LOS MARGENES Y RELLENOS */
-* {
-    margin: 0;
-    padding: 0;
-}
-/* TERMINA RESETEO */
-
-/* PROPIEDAD DE REINICIO EN HTML */
-html{
-    box-sizing: border-box;
-}
-/* FINALIZA LA PROPIEDAD DEL HTML */
+@import "general";
+@import "nav";
 
 
 
 /* HEADER */
-header{
-    position: sticky;
-    top: 0px;
-    background-color: black;
-    
-}
 
 
 
 
 
-header nav ul  {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(0, 0, 0);
-    font-size: 20px;
-    font-family: 'Koulen', cursive;
-    align-items: center;
-    justify-content: space-around;
-    position: sticky;
-   
-   
-}
-li{
-    list-style-type: none;
-}
+
+
    
  
  
@@ -57,17 +28,7 @@ li{
  
   
 
-a{
-    font-size: larger;
-    text-decoration: none;
-    color: rgb(165, 186, 205);
-    list-style-type: none;
 
-
-  
-
-    
-}
 
 /* FINALIZA EL HEADER */
 
@@ -792,42 +753,4 @@ text-decoration: none;
 
 
  
-
-
-
-
-
-
-
-
-
-
-
-    
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
 
