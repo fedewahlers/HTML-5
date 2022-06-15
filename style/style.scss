@@ -39,7 +39,7 @@
 /* COMIENZA EL H1 */
 
 h1 {
-    color: rgb(76, 127, 161);
+    color: rgb(57, 107, 141);
     font-weight: bold;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -51,7 +51,7 @@ h1 {
     padding-bottom: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+ 
  
  
 
@@ -222,7 +222,7 @@ p {
 .history{
 
     margin-bottom: 70px;
-    background-image: url(../imagenes/activion.png);
+    background-image: url(../imagenes/Call\ of\ duty.jfif);
     color: rgb(4, 235, 192);
     font-size: x-large;
     font-weight: 9000;
@@ -284,6 +284,7 @@ footer {
     font-family: 'Teko', sans-serif;; 
     list-style-type: none;
     margin-bottom: 0%;
+    list-style-type: none;
 
 
     
@@ -297,15 +298,20 @@ footer {
     color: rgb(240, 240, 240);
     list-style-type: none;
     margin-bottom: 0;
+
+    li{
+        list-style-type: none;
+    }
   
 }
+
 
 .iconos 
 span{
 color: rgb(150, 146, 146);
 padding-top: 90px;
-
 text-decoration: none;
+
 }
 /* CIERRO EL FOOTER Y SUS CALSES */
 
@@ -399,7 +405,6 @@ text-decoration: none;
     transition-property: all;
     transition-duration: 1s;
 }
-
 
 
 
@@ -672,6 +677,7 @@ text-decoration: none;
     }
 
     footer{
+       
 
 
     }

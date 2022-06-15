@@ -4,6 +4,7 @@ header{
     position: sticky;
     top: 0px;
     background-color: black;
+  
     nav ul  {
         display: flex;
         flex-direction: row;
@@ -22,7 +23,10 @@ header{
                 color: rgb(165, 186, 205);
                 list-style-type: none;   
             }
+
+          
         }  
+
     }
     
 }
