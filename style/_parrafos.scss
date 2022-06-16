@@ -1,0 +1,68 @@
+/* PARRAFOS INDEX */
+p {
+    color: white;
+    padding: 40px 50px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Odibee Sans', cursive;
+    font-size: larger;
+}
+.esports {
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 248, 248);
+    margin-right:0px ;
+    margin-left: 0px; 
+    margin-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;        
+ }       
+.comunidad{
+background-color: black;
+color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+.juegos{
+background-color: rgb(5, 48, 62);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;  
+}
+.historiatrr{
+background-color: rgb(5, 48, 62);
+color: rgb(249, 249, 249);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;  
+}
+ /* parrafos comunidad */
+.comunity{
+    margin-top: 20px;
+    margin-bottom: 50px;
+   background-color: rgb(5, 94, 15);
+    color: rgb(0, 0, 0);
+    font-size: larger;
+
+}
+/* cierro comunidad */
+
+/* parrafos de hitoria */
+.history{
+
+    margin-bottom: 70px;
+    background-image: url(../imagenes/338b27d5-a94f-4979-be23-09dc09d4e1a7.jfif );
+    color: rgb(0, 119, 132);
+    font-size: x-large;
+    font-weight: 9000;
+    font-family: fantasy;
+}

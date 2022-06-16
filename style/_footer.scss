@@ -1,0 +1,29 @@
+footer {
+    background: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;; 
+    list-style-type: none;
+    margin-bottom: 0%;
+    list-style-type: none;  
+}
+
+.iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(240, 240, 240);
+    list-style-type: none;
+    margin-bottom: 0;
+
+    li{
+        list-style-type: none;
+    }
+}
+  
+.iconos span{
+color: rgb(219, 203, 203);
+padding-top: 90px;
+text-decoration: none;
+}

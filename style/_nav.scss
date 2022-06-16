@@ -1,9 +1,9 @@
 
 
 header{
-    position: sticky;
-    top: 0px;
-    background-color: black;
+    position:$variable1;
+    top: $variable3;
+    background-color:$variable2;
   
     nav ul  {
         display: flex;

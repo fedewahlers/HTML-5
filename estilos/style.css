@@ -1,12 +1,3 @@
-/* FUENTES IMPORTADAS DE GOOGLE FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&family=Koulen&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
-/* FINALIZAN LAS IMPORTACIONES DE TIPOGRAFIAS */
 @import url("https://fonts.googleapis.com/css2?family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Koulen&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Smokum&display=swap");
@@ -22,6 +13,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 header {
@@ -62,11 +54,8 @@ header nav ul li a {
   list-style-type: none;
 }
 
-/* HEADER */
-/* FINALIZA EL HEADER */
-/* COMIENZA EL H1 */
 h1 {
-  color: #396b8d;
+  color: #93b1c5;
   font-weight: bold;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
@@ -87,13 +76,10 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* CALASES DEL H1 */
 .COD {
   background-color: black;
 }
 
-/* FINALIZA EL H1 */
-/* H2 */
 .historia {
   font-weight: bolder;
   font-size: xx-large;
@@ -120,15 +106,11 @@ h1 {
   font-weight: bolder;
 }
 
-/* FINALIZA EL H2 */
-/* H3 Y SUS PROPIEDADES */
 h3 {
   background-color: black;
   color: white;
 }
 
-/* CIERRA EL H3 */
-/* BODY Y SUS CLASES */
 body {
   background-image: url("../imagenes/fnodo22.jfif");
 }
@@ -137,8 +119,6 @@ body {
   background-color: aliceblue;
 }
 
-/* FINALIZA EL BODY */
-/* MAIN */
 main {
   background-image: url(../imagenes/fnodo22.jfif);
   display: -webkit-box;
@@ -153,10 +133,9 @@ main {
           justify-content: center;
 }
 
-/* CIERRA EL MAIN */
-/* PARRAFOS POR SECCIONES */
+/* PARRAFOS INDEX */
 p {
-  color: #fafafa;
+  color: white;
   padding: 40px 50px;
   margin-right: 0px;
   margin-left: 0px;
@@ -234,8 +213,7 @@ p {
   gap: 20px;
 }
 
-/* FINALIZA PARRAFOS DE HOME */
-/*parrafos de coomunidad  */
+/* parrafos comunidad */
 .comunity {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -245,17 +223,38 @@ p {
 }
 
 /* cierro comunidad */
-/* historia y parrafos */
+/* parrafos de hitoria */
 .history {
   margin-bottom: 70px;
-  background-image: url(../imagenes/Call\ of\ duty.jfif);
-  color: #04ebc0;
+  background-image: url(../imagenes/338b27d5-a94f-4979-be23-09dc09d4e1a7.jfif);
+  color: #007784;
   font-size: x-large;
   font-weight: 9000;
   font-family: fantasy;
 }
 
-/* IMAGENES Y SUS CLASES */
+.box1 {
+  border-radius: 2px white;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#5f5f5c));
+  background: linear-gradient(black, #5f5f5c);
+  padding-bottom: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box1:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 img {
   margin-bottom: 10px;
   width: 20%;
@@ -276,16 +275,6 @@ img {
   width: 1cm;
 }
 
-/* FINALIZAN LAS IMAGENS Y SUS CLASES */
-/* FORMULARIO */
-form {
-  color: antiquewhite;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-/* CIERRO EL FORMULARIO */
-/* INCIAL EL FOOTER Y SUS CLASES */
 footer {
   background: black;
   color: aliceblue;
@@ -319,15 +308,12 @@ footer {
   list-style-type: none;
 }
 
-.iconos
-span {
-  color: #969292;
+.iconos span {
+  color: #dbcbcb;
   padding-top: 90px;
   text-decoration: none;
 }
 
-/* CIERRO EL FOOTER Y SUS CALSES */
-/* BOTONES */
 .botones {
   background-color: #f7f7f7;
   color: black;
@@ -337,8 +323,7 @@ span {
   border-radius: 15px;
   padding-left: 10px;
   padding-right: 10px;
-  button: hover black;
-  cursor: pointer;
+  text-decoration: none;
 }
 
 .botones:hover {
@@ -350,7 +335,6 @@ span {
           transition-duration: 2s;
 }
 
-/* grids */
 .grids {
   border: 10px #e90909 solid;
   border-radius: 10px;
@@ -369,7 +353,6 @@ span {
   height: 100%;
 }
 
-/* cierrro grids */
 .alfa {
   padding-left: auto;
   width: 100%;
@@ -380,30 +363,6 @@ span {
   margin-bottom: 55px;
   margin-top: 55px;
   border: 2px solid white;
-}
-
-/*  LAYOUT CON GRIDS*/
-/* ANIMACIONES */
-.box1 {
-  border-radius: 2px white;
-  height: auto;
-  width: auto;
-  margin: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background: -webkit-gradient(linear, left top, left bottom, from(black), to(#5f5f5c));
-  background: linear-gradient(black, #5f5f5c);
-  padding-bottom: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.box1:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2);
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
 }
 
 /* MEDIA 600, 768  INDEX*/
@@ -581,7 +540,6 @@ span {
   }
 }
 
-/* RESPONSIVE EN JUEGOS */
 @media (max-width: 600px) {
   .games {
     background-color: aliceblue;
@@ -620,40 +578,6 @@ span {
     margin-right: 0px;
     padding-left: 0px;
     padding-right: auto;
-  }
-  h1 {
-    background-color: black;
-    color: #fcfcfc;
-    margin-bottom: 0%;
-  }
-}
-
-/* JUEGOS RESPONSIVE 728 */
-@media (max-width: 728px) {
-  .games {
-    background-color: aliceblue;
-  }
-  .grids {
-    border: 0px #e90909 solid;
-    border-radius: 10px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto autp;
-        grid-template-columns: auto autp;
-    -ms-grid-rows: auto auto;
-        grid-template-rows: auto auto;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0%;
-    gap: 1px;
-  }
-  .soon img {
-    width: 100%;
-    height: 100%;
-  }
-  .alfa {
-    padding-left: 0px;
-    width: 100%;
   }
   h1 {
     background-color: black;

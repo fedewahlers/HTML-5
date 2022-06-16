@@ -1,0 +1,13 @@
+.grids{
+    border: 10px rgb(233, 9, 9) solid;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:  auto auto;
+    gap: 2px;
+    margin: auto;
+}
+.soon  img{
+    width: 100%;
+    height: 100%;
+}
