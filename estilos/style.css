@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -50,7 +51,7 @@ header nav ul li {
 header nav ul li a {
   font-size: larger;
   text-decoration: none;
-  color: #a5bacd;
+  color: #8e928e;
   list-style-type: none;
 }
 
@@ -136,81 +137,47 @@ main {
 /* PARRAFOS INDEX */
 p {
   color: white;
-  padding: 40px 50px;
-  margin-right: 0px;
-  margin-left: 0px;
+  padding: 0px 50px;
   margin-bottom: 0px;
   text-align: center;
-  font-family: 'Odibee Sans', cursive;
+  font-family: 'Staatliches', cursive;
   font-size: larger;
 }
 
 .esports {
-  background-color: black;
+  background-color: #090b21;
   color: #f8f8f8;
   margin-right: 0px;
   margin-left: 0px;
   margin-bottom: 20px;
   padding-top: 70px;
   padding-bottom: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
 }
 
 .comunidad {
   background-color: black;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
 }
 
 .juegos {
-  background-color: #05303e;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  background-color: black;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
 }
 
 .historiatrr {
-  background-color: #05303e;
+  background-color: black;
   color: #f9f9f9;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
 }
 
 /* parrafos comunidad */
