@@ -552,4 +552,52 @@ footer {
     margin-bottom: 0%;
   }
 }
+
+.box_uno {
+  background-color: blue;
+  width: 300px;
+  height: 40px;
+}
+
+.box_dos {
+  background-color: green;
+  width: 250px;
+}
+
+/*mapas*/
+.btn--twitter {
+  background-color: red;
+}
+
+.btn--facebook {
+  background-color: blue;
+}
+
+.btn--instagram {
+  background-color: #9b3281;
+}
+
+/*extend*/
+.redSocial, .redsocial--social, .redsocial--nueva {
+  border: 2px solid red;
+  background-color: aqua;
+}
+
+.redsocial--social {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+.redsocial--nueva {
+  font-size: medium;
+  color: #3b6f71;
+}
+
+/*mixin*/
+.my_mixin {
+  height: 50px;
+  width: 500px;
+  background-color: chartreuse;
+}
 /*# sourceMappingURL=style.css.map */
