@@ -6,15 +6,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDGothic&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
 html {
+  overflow-x: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 header {
@@ -56,11 +57,10 @@ header nav ul li a {
 }
 
 h1 {
-  color: #93b1c5;
+  color: gainsboro;
   font-weight: bold;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
-  border: 5px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,8 +77,13 @@ h1 {
   margin-bottom: 10px;
 }
 
-.COD {
+h2 {
+  font-weight: bolder;
+  font-size: smaller;
   background-color: black;
+  color: rgba(182, 182, 182, 0.564);
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .historia {
@@ -113,15 +118,14 @@ h3 {
 }
 
 body {
-  background-image: url("../imagenes/fnodo22.jfif");
+  background-color: black;
 }
 
 .games {
-  background-color: aliceblue;
+  background-color: black;
 }
 
 main {
-  background-image: url(../imagenes/fnodo22.jfif);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,45 +143,10 @@ p {
   color: white;
   padding: 0px 50px;
   margin-bottom: 0px;
+  text-decoration: none;
   text-align: center;
   font-family: 'Staatliches', cursive;
   font-size: larger;
-}
-
-.esports {
-  background-color: #090b21;
-  color: #f8f8f8;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-bottom: 20px;
-  padding-top: 70px;
-  padding-bottom: 50px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.comunidad {
-  background-color: black;
-  color: white;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.juegos {
-  background-color: black;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.historiatrr {
-  background-color: black;
-  color: #f9f9f9;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 /* parrafos comunidad */
@@ -187,6 +156,14 @@ p {
   background-color: #055e0f;
   color: black;
   font-size: larger;
+}
+
+.caruley {
+  font-family: 'BIZ UDGothic', sans-serif;
+}
+
+.villa {
+  color: white;
 }
 
 /* cierro comunidad */
@@ -222,6 +199,27 @@ p {
           transition-duration: 1s;
 }
 
+.definitive {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #525151;
+  background-color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.definitive:hover {
+  -webkit-transform: perspective(6);
+          transform: perspective(6);
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+  border: 2px solid gray;
+  text-decoration: none;
+}
+
 img {
   margin-bottom: 10px;
   width: 20%;
@@ -242,6 +240,11 @@ img {
   width: 1cm;
 }
 
+.terrabusi {
+  margin-left: 560px;
+  margin-top: 0px;
+}
+
 footer {
   background: black;
   color: aliceblue;
@@ -252,33 +255,16 @@ footer {
   list-style-type: none;
 }
 
-.iconos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  color: #f0f0f0;
-  list-style-type: none;
-  margin-bottom: 0;
+.footernew {
+  padding-top: 80px;
+  font-size: larger;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  color: salmon;
 }
 
-.iconos li {
-  list-style-type: none;
-}
-
-.iconos span {
-  color: #dbcbcb;
-  padding-top: 90px;
-  text-decoration: none;
+.nav-link {
+  color: #84878a;
 }
 
 .botones {
@@ -332,225 +318,15 @@ footer {
   border: 2px solid white;
 }
 
-/* MEDIA 600, 768  INDEX*/
-@media (max-width: 600px) {
-  header nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    background-color: black;
-    font-size: 20 px;
-    font-family: 'Koulen', cursive;
-    position: absolute;
-    gap: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  footer {
-    margin-top: 0%;
-    margin-bottom: 0%;
-  }
-  .iconos {
-    background: black;
-    color: aliceblue;
-    font-weight: bold;
-    font-family: 'Teko', sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .iconos span {
-    margin-top: top 0px;
-    margin-bottom: 0px;
-  }
-  h1 {
-    color: #616e78;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 5px solid white;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
-
-/* MEDIA 768 */
-@media (max-width: 768px) {
-  header {
-    position: relative;
-  }
-  header nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: black;
-    font-size: 15px;
-    font-family: 'Koulen', cursive;
-    border: 2px solid red;
-  }
-  footer {
-    background: black;
-    font-weight: bold;
-    font-family: 'Teko', sans-serif;
-    margin-top: 0;
-    margin-bottom: 0;
-    border: 2px solid red;
-  }
-  .iconos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-bettwen;
-        -ms-flex-pack: space-bettwen;
-            justify-content: space-bettwen;
-    height: 80px;
-  }
-  .iconos span {
-    color: #90cdb7;
-  }
-  h1 {
-    color: #f8fcff;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    border: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: transparent;
-  }
-  .COD {
-    background-color: black;
-    border: 2px solid red;
-  }
-  .comunidad {
-    background-color: #600606;
-    color: #f7f7f7;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 20px;
-  }
-  .historiatrr {
-    background-color: black;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-  }
-  .juegos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    background-color: black;
-  }
-  .esports {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    background-color: #600606;
-  }
-  main {
-    border: 2px solid red;
-  }
-}
-
-@media (max-width: 600px) {
-  .games {
-    background-color: aliceblue;
-  }
-  .grids {
-    border: 0px #e90909 solid;
-    border-radius: 10px;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: auto autp;
-        grid-template-columns: auto autp;
-    -ms-grid-rows: 290px 290px;
-        grid-template-rows: 290px 290px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0%;
-    gap: 1px;
-  }
-  .soon img {
-    width: 100%;
-    height: 100%;
-  }
-  .alfa {
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: auto;
-  }
-  h1 {
-    background-color: black;
-    color: #fcfcfc;
-    margin-bottom: 0%;
-  }
+.FORMU {
+  margin-left: 510px;
+  border: 2px solid white;
+  margin-top: 50px;
+  margin-right: 510px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .box_uno {
@@ -599,5 +375,23 @@ footer {
   height: 50px;
   width: 500px;
   background-color: chartreuse;
+}
+
+@media (min-width: 600px) {
+  .FORMU {
+    margin-left: 0px;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 300px) {
+  .FORMU {
+    margin-left: 0px;
+    padding-left: 0;
+    margin-right: 0;
+    padding-right: 0px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
