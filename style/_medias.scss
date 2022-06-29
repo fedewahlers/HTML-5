@@ -6,6 +6,19 @@
         margin-right: 0;
         padding-right: 0px;
     }
+
+    .definitive{
+        display: flex;
+        flex-direction: column ;
+        
+
+    }
+    .EFECTEREW{
+        border-radius: 2px white solid;
+    }
+
+
+
 }
 @media(min-width: 300px){
 
@@ -15,5 +28,10 @@
         margin-right: 0;
         padding-right: 0px;
         
+    }
+    .definitive{
+        display: flex;
+        flex-direction: column;
+
     }
 }

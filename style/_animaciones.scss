@@ -36,6 +36,24 @@
     
 }
 
+.EFECTEREW{
+
+    &:hover{
+       color: blue;
+       transition-duration:  2s;
+        
+    }
+}
+
+.raven{
+
+    padding-top: 30px;
+    font-size: xx-large;
+  &:hover{
+    color: green;
+    transition-duration: 2s;
+  }   
+}
  
 
 

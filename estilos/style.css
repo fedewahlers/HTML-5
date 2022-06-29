@@ -19,10 +19,11 @@ html {
 }
 
 header {
-  position: -webkit-sticky;
-  position: sticky;
+  position: static;
   top: 0px;
   background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 header nav ul {
@@ -159,11 +160,16 @@ p {
 }
 
 .caruley {
-  font-family: 'BIZ UDGothic', sans-serif;
+  font-family: 'Titan One', cursive;
 }
 
 .villa {
   color: white;
+}
+
+.raven {
+  padding-top: 30px;
+  font-size: xx-large;
 }
 
 /* cierro comunidad */
@@ -220,29 +226,21 @@ p {
   text-decoration: none;
 }
 
-img {
-  margin-bottom: 10px;
-  width: 20%;
+.EFECTEREW:hover {
+  color: blue;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
-.facebook {
-  height: 1cm;
-  width: 1cm;
+.raven {
+  padding-top: 30px;
+  font-size: xx-large;
 }
 
-.twitter {
-  height: 1cm;
-  width: 1cm;
-}
-
-.instagram {
-  height: 1cm;
-  width: 1cm;
-}
-
-.terrabusi {
-  margin-left: 560px;
-  margin-top: 0px;
+.raven:hover {
+  color: green;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
 }
 
 footer {
@@ -320,13 +318,17 @@ footer {
 
 .FORMU {
   margin-left: 510px;
-  border: 2px solid white;
+  border: 2px solid #c29595;
   margin-top: 50px;
   margin-right: 510px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.fonditoo {
+  background-image: url(../imagenes/c30b8e92-779f-48c8-8b04-40e394bbf689.jfif);
 }
 
 .box_uno {
@@ -384,6 +386,18 @@ footer {
     margin-right: 0;
     padding-right: 0px;
   }
+  .definitive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .EFECTEREW {
+    border-radius: 2px white solid;
+  }
 }
 
 @media (min-width: 300px) {
@@ -392,6 +406,15 @@ footer {
     padding-left: 0;
     margin-right: 0;
     padding-right: 0px;
+  }
+  .definitive {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */
