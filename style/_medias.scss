@@ -1,5 +1,9 @@
 @media (min-width:900px) and (max-width:1024px){
 
+    html{
+        overflow-x: hidden;
+    }
+
     .FORMU{
         margin-left: 0px;
         padding-left: 0;
@@ -34,12 +38,17 @@
         margin-bottom: 20px;
     }
 
+    
+
 
 
 
 }
 
 @media (min-width:830px) and (max-width:900px){
+    html{
+        overflow-x: hidden;
+    }
     .FORMU{
         margin-left: 0px;
         padding-left: 0;
@@ -84,6 +93,9 @@
 
 
 @media (min-width: 729px) and (max-width:830px){
+    html{
+        overflow-x: hidden;
+    }
 
     .FORMU{
         margin-left: 0px;
@@ -129,6 +141,10 @@
 
 
 @media (min-width :620px)and(max-width: 729px) {
+
+    html{
+        overflow-x: hidden;
+    }
 
     .FORMU{
         margin-left: 0px;
@@ -182,6 +198,10 @@
 
 @media (min-width :540px)and(max-width: 620px){
 
+    html{
+        overflow-x: hidden;
+    }
+
 
     .FORMU{
         margin-left: 0px;
@@ -226,6 +246,10 @@
 }
 @media(min-width: 420px) and (max-width:540px){
 
+    html{
+        overflow-x: hidden;
+    }
+
 
     .FORMU{
         margin-left: 0px;
@@ -269,6 +293,9 @@
 
 @media(min-width: 300px) and (max-width:420px)
 {
+    html{
+        overflow-x: hidden;
+    }
 
     .FORMU{
         margin-left: 0px;
@@ -319,6 +346,9 @@
 }
 
 @media(min-width: 200px) and (max-width:300px){
+    html{
+        overflow-x: hidden;
+    }
     .ifr{
         width: 230px;
     }
