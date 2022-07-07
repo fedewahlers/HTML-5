@@ -533,4 +533,10 @@ footer {
     width: 100%;
   }
 }
+
+@media (min-width: 200px) and (max-width: 300px) {
+  .ifr {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
