@@ -1,4 +1,133 @@
-@media(min-width: 600px ){
+@media (min-width:900px) and (max-width:1024px){
+
+    .FORMU{
+        margin-left: 0px;
+        padding-left: 0;
+        margin-right: 0;
+        padding-right: 0px;
+    }
+
+
+    .grid43{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+        margin: 10px;
+        margin-left: 120px;
+    }
+    .logocod{
+        margin: 210px;
+        margin-bottom: 10px;
+    }
+    
+    .logocod2{
+        margin:240px;
+        margin-bottom: 10px;
+    }
+    .grids424{
+
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto ;
+        margin-left: 180px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+    }
+
+
+
+
+}
+
+@media (min-width:830px) and (max-width:900px){
+    .FORMU{
+        margin-left: 0px;
+        padding-left: 0;
+        margin-right: 0;
+        padding-right: 0px;
+    }
+
+    .grid43{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+        margin: 10px;
+        margin-left: 100px;
+    }
+    .logocod{
+        margin: 170px;
+        margin-bottom: 10px;
+    }
+    
+    .logocod2{
+        margin:200px;
+        margin-bottom: 10px;
+    }
+    .grids424{
+
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto ;
+        margin-left: 130px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 730px) and (max-width:830px){
+
+    .FORMU{
+        margin-left: 0px;
+        padding-left: 0;
+        margin-right: 0;
+        padding-right: 0px;
+    }
+
+    .grid43{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto;
+        margin: 10px;
+        margin-left: 60px;
+    }
+    .logocod{
+        margin: 120px;
+        margin-bottom: 10px;
+    }
+    
+    .logocod2{
+        margin:150px;
+        margin-bottom: 10px;
+    }
+    .grids424{
+
+        display: grid;
+        grid-template-columns: auto   ;
+        grid-template-rows: auto  ;
+        margin-left: 90px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+    }
+    
+
+
+}
+
+
+
+
+
+
+@media (min-width :620px)and(max-width: 730px) {
 
     .FORMU{
         margin-left: 0px;
@@ -10,17 +139,132 @@
     .definitive{
         display: flex;
         flex-direction: column ;
+      
         
 
     }
-    .EFECTEREW{
-        border-radius: 2px white solid;
+
+   .grid43{
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto ;
+    margin: 10px;
+    margin-left: 210px;
+}
+.logocod{
+    margin: 110px;
+}
+
+.logocod2{
+    margin:150px;
+    margin-bottom: 10px;
+}
+
+.grids424{
+
+    display: grid;
+    grid-template-columns: auto ;
+    grid-template-rows: auto ;
+    margin-left: 30px;
+    margin-top:20px ;
+    margin-bottom: 40px;
+}
+
+    
+
+
+
+}
+
+@media (min-width :540px)and(max-width: 620px){
+
+
+    .FORMU{
+        margin-left: 0px;
+        padding-left: 0;
+        margin-right: 0;
+        padding-right: 0px;
+    }
+
+
+    .grid43{
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-rows: auto ;
+        margin: 10px;
+        margin-left: 120px;
+    }
+    .logocod{
+        margin: 50px;
+    }
+    
+    .logocod2{
+        margin:90px;
+        margin-bottom: 10px;
+    }
+    .grids424{
+
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto ;
+        margin-left: 0px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+        
+    }
+    .ifr{
+        width: 100%;
+    }
+
+
+
+
+}
+@media(min-width: 420px) and (max-width:540px){
+
+
+    .FORMU{
+        margin-left: 0px;
+        padding-left: 0;
+        margin-right: 0;
+        padding-right: 0px;
+    }
+
+
+    .grid43{
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-rows: auto ;
+        margin: 10px;
+        margin-left: 100px;
+    }
+    .logocod{
+        margin: 50px;
+    }
+    
+    .logocod2{
+        margin:90px;
+        margin-bottom: 10px;
+    }
+    .grids424{
+
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto ;
+        margin-left: 20px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+    }
+    .ifr{
+        width: 100%;
     }
 
 
 
 }
-@media(min-width: 300px){
+
+@media(min-width: 300px) and (max-width:420px)
+{
 
     .FORMU{
         margin-left: 0px;
@@ -34,4 +278,37 @@
         flex-direction: column;
 
     }
+
+
+
+    .grid43{
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-rows: auto ;
+        margin: 10px;
+        margin-left: 65px;
+    }
+    .logocod{
+        margin: 50px;
+    }
+    
+    .logocod2{
+        margin:90px;
+        margin-bottom: 10px;
+    }
+
+
+    .grids424{
+
+        display: grid;
+        grid-template-columns: auto ;
+        grid-template-rows: auto ;
+        margin-left: 20px;
+        margin-top:20px ;
+        margin-bottom: 20px;
+    }
+    .ifr{
+        width: 100%;
+    }
+    
 }

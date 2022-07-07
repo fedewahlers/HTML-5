@@ -1,4 +1,4 @@
-/* PARRAFOS INDEX */
+
 p {
     color: rgb(255, 255, 255);
     padding: 0px 50px;
@@ -11,26 +11,6 @@ p {
 
 
 
-
-
-
- /* parrafos comunidad */
-.comunity{
-    margin-top: 20px;
-    margin-bottom: 50px;
-   background-color: rgb(5, 94, 15);
-    color: rgb(0, 0, 0);
-    font-size: larger;
-
-}
-
-.caruley{
-
-    font-family: 'Titan One', cursive;
-    
-
-}
-
 .villa{
     color: white;
 }
@@ -41,15 +21,18 @@ p {
     font-size: xx-large;
     
 }
-/* cierro comunidad */
 
-/* parrafos de hitoria */
-.history{
+.blackops{
+    font-size: xx-large;
+    border: 2px white solid;
+}
 
-    margin-bottom: 70px;
-    background-image: url(../imagenes/338b27d5-a94f-4979-be23-09dc09d4e1a7.jfif );
-    color: rgb(0, 119, 132);
-    font-size: x-large;
-    font-weight: 9000;
-    font-family: fantasy;
+
+
+.twi{
+    font-size: xx-large;
+    margin-top: 20px;
+   &:hover{
+    color: violet;
+   }
 }
