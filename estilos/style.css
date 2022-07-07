@@ -321,7 +321,7 @@ footer {
   }
 }
 
-@media (min-width: 730px) and (max-width: 830px) {
+@media (min-width: 729px) and (max-width: 830px) {
   .FORMU {
     margin-left: 0px;
     padding-left: 0;
@@ -359,7 +359,7 @@ footer {
   }
 }
 
-@media (min-width: 620px) and (max-width: 730px) {
+@media (min-width: 620px) and (max-width: 729px) {
   .FORMU {
     margin-left: 0px;
     padding-left: 0;
@@ -403,6 +403,9 @@ footer {
     margin-top: 20px;
     margin-bottom: 40px;
   }
+  .ifr {
+    width: 420px;
+  }
 }
 
 @media (min-width: 540px) and (max-width: 620px) {
@@ -441,7 +444,7 @@ footer {
     margin-bottom: 20px;
   }
   .ifr {
-    width: 100%;
+    width: 340px;
   }
 }
 
@@ -481,7 +484,7 @@ footer {
     margin-bottom: 20px;
   }
   .ifr {
-    width: 100%;
+    width: 300px;
   }
 }
 
@@ -530,13 +533,14 @@ footer {
     margin-bottom: 20px;
   }
   .ifr {
-    width: 100%;
+    width: 270px;
+    margin: 0;
   }
 }
 
 @media (min-width: 200px) and (max-width: 300px) {
   .ifr {
-    width: 100%;
+    width: 230px;
   }
 }
 /*# sourceMappingURL=style.css.map */
